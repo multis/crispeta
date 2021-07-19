@@ -1,0 +1,14 @@
+{:source-paths ["src"]
+
+ :dependencies [[re-frame "1.2.0"]
+                [reagent "1.1.0"]]
+
+ :nrepl {:port 8777}
+
+ :builds {:web {:target     :browser
+                :output-dir "build/web/js"
+                :asset-path "/js"
+                :modules    {:main {:init-fn acme.web.app/main}}
+                :devtools   {:http-root  "build/web"
+                             :http-port  5000
+                             :after-load acme.web.app/reload}}}}

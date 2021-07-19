@@ -1,0 +1,14 @@
+{
+  "name": "etiquetas",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "shadow-cljs watch web"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.15.1"
+  },
+  "dependencies": {
+    "google-map-react": "^2.1.10"
+  }
+}

@@ -8,7 +8,7 @@
   (reagent.dom/render [:div [:h1 "Hello there, candidate!"]]
                       (js/document.getElementById "main")))
 
-(defn reload
+(defn ^:dev/after-load reload
   []
   (rf/clear-subscription-cache!)
   (mount-root))

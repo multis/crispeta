@@ -19,7 +19,7 @@ and run a cljs project.
 ### 👯‍♂️ Clone the project
 
 ```bash
-git@github.com:multis/crispeta.git multis-case-study
+git clone git@github.com:multis/crispeta.git multis-case-study
 cd multis-case-study
 ```
 

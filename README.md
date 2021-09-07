@@ -26,6 +26,8 @@ cd multis-case-study
 ### 🏃‍♀️ Run it!
 
 ```bash
+npm install
+
 npm start
 
 # or jack-in with your favorite editor.
